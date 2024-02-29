@@ -15,7 +15,7 @@ echo "127.0.0.1 archlinux.localdomain archlinux"
 
 reflector --verbose --latest 200 --protocol https --protocol http --sort rate --save /etc/pacman.d/mirrorlist 
 pacman -Syu --noconfirm
-pacman -S --noconfirm firefox-developer-edition uwufetch ttf-dejavu ttf-fira-code ttf-firacode-nerd ttf-font-awesome tldr ripgrep kitty alacritty github-cli zsh lsd neofetch btop htop bat composer wget unrar zoxide unzip tmux ufw ranger python fzf flapack apache mariadb php php-apache php-gd php-pgsql php-xsl phpmyadmin lazygit nmap openssh --needed
+pacman -S --noconfirm firefox-developer-edition inetutils net-tools uwufetch ttf-dejavu ttf-fira-code ttf-firacode-nerd ttf-font-awesome tldr ripgrep kitty alacritty github-cli zsh lsd neofetch btop htop bat composer wget unrar zoxide unzip tmux ufw ranger python fzf flapack apache mariadb php php-apache php-gd php-pgsql php-xsl phpmyadmin lazygit nmap openssh --needed
 
 systemctl enable bluetooth
 systemctl enable NetworkManager
